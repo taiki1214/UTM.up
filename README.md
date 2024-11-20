@@ -1,0 +1,1 @@
+ISEmake.shがMacのターミナルで動かすスクリプトでpullscript.shはゲスト上で動かすスクリプトです.
