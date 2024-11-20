@@ -1,3 +1,9 @@
+Mac上で「$ sudo ln -sf /Applications/UTM.app/Contents/MacOS/utmctl /usr/local/bin/utmctl」でutmctlを使えるようにする
+
+
+Ubuntu上で「$ sudo apt install qemu-guest-agent」でインストールし、「$ sudo systemctl start qemu-guest-agent」で起動しておく
+
+
 ISEmake.shがMacのターミナルで動かすスクリプトでpullscript.shはゲスト上で動かすスクリプトです。
 
 
@@ -10,4 +16,4 @@ ISEmake.shの中のutmctlでチェックできる項目はチェックして、u
 「utmctl exec Ubuntu24 --cmd ~~」 の"Ubuntu24"の部分は対象とする仮想マシン名にしてください。
 
 
-多分変更します
+中身は多分変更します
